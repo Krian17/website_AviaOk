@@ -1,0 +1,41 @@
+#fixed, #fixed_2, #fixed_3, #fixed_4, #fixed_5, #fixed_6 {
+    height: 800px;
+}
+
+#fixed_1, #fixed_2_1, #fixed_3_1, #fixed_4_1, #fixed_5_1, #fixed_6_1 {
+    height: 200px;
+}
+
+#fixed, #fixed_1 {
+    background: url("../img/slider_1.jpg") no-repeat center center fixed;
+}
+
+#fixed_2, #fixed_2_1 {
+    background: url("../img/slider_2.jpg") no-repeat center center fixed;
+}
+
+#fixed_3, #fixed_3_1 {
+    background: url("../img/slider_3.jpg") no-repeat center center fixed;
+}
+
+#fixed_4, #fixed_4_1 {
+    background: url("../img/slider_4.jpg") no-repeat center center fixed;
+}
+
+#fixed_5, #fixed_5_1 {
+    background: url("../img/slider_5.jpg") no-repeat center center fixed;
+}
+
+#fixed_6, #fixed_6_1 {
+    background: url("../img/slider_6.jpg") no-repeat center center fixed;
+}
+
+#fixed, #fixed_1, #fixed_2, #fixed_2_1, #fixed_3,#fixed_3_1, #fixed_4, #fixed_4_1 , #fixed_5, #fixed_5_1, #fixed_6, #fixed_6_1 {
+    width: 100%;
+    border-top: 4px solid #f0f0f0;
+    border-bottom: 4px solid #f0f0f0;
+    background-blend-mode: multiply;
+    background-color: lightblue;
+    background-size: cover;
+}
+
